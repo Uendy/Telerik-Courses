@@ -4,23 +4,17 @@ public class Program
 {
     public static void Main()
     {
-        var input = Console.ReadLine()
-            .ToCharArray()
-            .Select(x => 
-            int.Parse(x.ToString()))
-            .OrderByDescending(x => x)
-            .ToArray();
+        var input = Console.ReadLine().ToCharArray().Select(x => int.Parse(x.ToString())).ToArray();
 
-        var strictSum = input[0] + input[1] + input[2];
-        var strictMultiple = input[0] * input[1] * input[2];
+        var sumMax = input[0] + input[1] + input[2];
+        var multiplyMax = input[0] * input[1] * input[2];
 
-        var strictMax = Math.Max(strictSum, strictMultiple);
+        var strictMax = Math.Max(sumMax, multiplyMax);
 
-        var firstMixed = input[0] * input[1] + input[2];
-        var secondMixed = input[0] + input[1] * input[2];
-        var mixedMax = Math.Max(firstMixed, secondMixed);
+        var firstMixedMax = input[0] + input[1] * input[2];
+        var secondMixedMax = input[0] * input[1] + input[2];
+        var mixedMax = Math.Max(firstMixedMax, secondMixedMax);
 
         Console.WriteLine(Math.Max(strictMax, mixedMax));
-
     }
 }
