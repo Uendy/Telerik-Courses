@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -12,8 +11,16 @@ public class Program
             .OrderByDescending(x => x)
             .ToArray();
 
-        int biggestSum = input[0] * input[1];
+        var strictSum = input[0] + input[1] + input[2];
+        var strictMultiple = input[0] * input[1] * input[2];
 
-        Console.WriteLine(Math.Max(biggestSum * input[2], biggestSum + input[2]));
+        var strictMax = Math.Max(strictSum, strictMultiple);
+
+        var firstMixed = input[0] * input[1] + input[2];
+        var secondMixed = input[0] + input[1] * input[2];
+        var mixedMax = Math.Max(firstMixed, secondMixed);
+
+        Console.WriteLine(Math.Max(strictMax, mixedMax));
+
     }
 }
