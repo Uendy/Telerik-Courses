@@ -9,7 +9,7 @@ public class Program
         var maxNonDesiredSymbols = 0;
         var currentNonDesiredSymbols = 0;
 
-        for (int i = 0; i < input.Count(); i++)
+        for (int i = 0; i < input.Count() - 1; i++)
         {
             var currentChar = input[i];
 
