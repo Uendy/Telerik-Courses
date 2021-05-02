@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Game", "Q01 Game\Q01 Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Electronic Message", "Q02 Electronic Message\Q02 Electronic Message.csproj", "{BC489C0B-3956-4931-A67F-D3EE70FE625C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Pincode", "Q03 Pincode\Q03 Pincode.csproj", "{355C0E7D-0A8D-4922-8371-3362315F0E87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BC489C0B-3956-4931-A67F-D3EE70FE625C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC489C0B-3956-4931-A67F-D3EE70FE625C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC489C0B-3956-4931-A67F-D3EE70FE625C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355C0E7D-0A8D-4922-8371-3362315F0E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355C0E7D-0A8D-4922-8371-3362315F0E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355C0E7D-0A8D-4922-8371-3362315F0E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355C0E7D-0A8D-4922-8371-3362315F0E87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
