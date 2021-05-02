@@ -4,6 +4,9 @@ public class Program
 {
     static void Main(string[] args)
     {
+        // Find the longest consecutive symbols that arent letters, numbers or spaces
+        // Example: Input: Tempera#### na @#$ata 23 grad#%&. Output: 4
+
         var input = Console.ReadLine().ToCharArray();
 
         var maxNonDesiredSymbols = 0;
