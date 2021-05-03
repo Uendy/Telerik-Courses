@@ -1,0 +1,7 @@
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 1\Q04 Order\bin\Debug\Q04 Order.exe.config
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 1\Q04 Order\bin\Debug\Q04 Order.exe
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 1\Q04 Order\bin\Debug\Q04 Order.pdb
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 1\Q04 Order\obj\Debug\Q04 Order.csprojAssemblyReference.cache
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 1\Q04 Order\obj\Debug\Q04 Order.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 1\Q04 Order\obj\Debug\Q04 Order.exe
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 1\Q04 Order\obj\Debug\Q04 Order.pdb
