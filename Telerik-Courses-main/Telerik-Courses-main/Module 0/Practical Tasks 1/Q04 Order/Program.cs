@@ -8,15 +8,35 @@ public class Program
         // Recieve four values and determine their order: ascending, descending, mixed
         // Example: Input: 3, 4, 4, 5 Output: mixed
 
-        var array = Console.ReadLine().Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+        var array = Console.ReadLine().Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).ToArray();
 
-        if (array == array.OrderByDescending(x => x).ToArray())
+        bool asc = true;
+        bool des = true;
+
+        for (int i = 0; i < array.Count() - 1; i++)
         {
-            Console.WriteLine("Descending");
+            if (array[i] > array[i + 1])
+            {
+                asc = false;
+            }
+            else if (array[i] < array[i + 1])
+            {
+                des = false;
+            }
+            else 
+            {
+                asc = false;
+                des = false;
+            }
         }
-        else if (array == array.OrderBy(x => x).ToArray())
+
+        if (asc == true)
         {
             Console.WriteLine("Ascending");
+        }
+        else if (des == true)
+        {
+            Console.WriteLine("Descending");
         }
         else
         {
