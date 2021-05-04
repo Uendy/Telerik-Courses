@@ -8,7 +8,10 @@ public class Program
         // Recieve four values and determine their order: ascending, descending, mixed
         // Example: Input: 3, 4, 4, 5 Output: mixed
 
-        var array = Console.ReadLine().Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).ToArray();
+        var array = Console.ReadLine()
+            .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
+            .Select(x => int.Parse(x))
+            .ToArray();
 
         bool asc = true;
         bool des = true;
