@@ -1,0 +1,7 @@
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 2\Practical Tasks 2\Q02 Forest Road\bin\Debug\Q02 Forest Road.exe.config
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 2\Practical Tasks 2\Q02 Forest Road\bin\Debug\Q02 Forest Road.exe
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 2\Practical Tasks 2\Q02 Forest Road\bin\Debug\Q02 Forest Road.pdb
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 2\Practical Tasks 2\Q02 Forest Road\obj\Debug\Q02 Forest Road.csprojAssemblyReference.cache
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 2\Practical Tasks 2\Q02 Forest Road\obj\Debug\Q02 Forest Road.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 2\Practical Tasks 2\Q02 Forest Road\obj\Debug\Q02 Forest Road.exe
+C:\Users\Alexb\Desktop\Programming\Telerik\Telerik Courses\Telerik-Courses-main\Telerik-Courses-main\Module 0\Practical Tasks 2\Practical Tasks 2\Q02 Forest Road\obj\Debug\Q02 Forest Road.pdb
