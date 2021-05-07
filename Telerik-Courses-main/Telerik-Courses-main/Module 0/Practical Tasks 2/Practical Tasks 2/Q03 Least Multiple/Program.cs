@@ -12,31 +12,29 @@ public class Program
         }
         numbers = numbers.OrderBy(x => x).ToList();
 
-        for (int i = numbers[2]; i < numbers[4] * 10; i++)
-        {
-            var devided = new bool[5];
-            if (i % numbers[0] == 0)
-            {
-                devided[0] = true;
-            }
-            if (i % numbers[1] == 0) 
-            {
-                devided[1] = true;
-            }
-            if (i % numbers[2] == 0)
-            {
-                devided[2] = true;
-            }
-            if (i % numbers[3] == 0)
-            {
-                devided[3] = true;
-            }
-            if (i % numbers[4] == 0)
-            {
-                devided[4] = true;
-            }
+        var max = numbers[2] * numbers[3] * numbers[4];
 
-            if (devided.Where(x => x == true).Count() >= 3)
+        for (int i = numbers[1] + numbers[0]; i <= max; i+= numbers[0])
+        {
+            if (numbers.Any(x => x == i))
+            {
+                Console.WriteLine(i);
+                break;
+            }
+        }
+
+        for (int i = numbers[2] + numbers[1]; i <= max; i+= numbers[1])
+        {
+            if (numbers.Any(x => x == i))
+            {
+                Console.WriteLine(i);
+                break;
+            }
+        }
+
+        for (int i = numbers[3] + numbers[2]; i <= max; i+= numbers[2])
+        {
+            if (numbers.Any(x => x == i))
             {
                 Console.WriteLine(i);
                 break;
