@@ -12,32 +12,12 @@ public class Program
         }
         numbers = numbers.OrderBy(x => x).ToList();
 
-        var max = numbers[2] * numbers[3] * numbers[4];
-
-        for (int i = numbers[1] + numbers[0]; i <= max; i+= numbers[0])
+        for (int i = numbers[0]; i < int.MaxValue; i+= numbers[0])
         {
-            if (numbers.Any(x => x == i))
+            if (numbers.Where(x => i % x == 0).Count() >= 3)
             {
                 Console.WriteLine(i);
-                break;
-            }
-        }
-
-        for (int i = numbers[2] + numbers[1]; i <= max; i+= numbers[1])
-        {
-            if (numbers.Any(x => x == i))
-            {
-                Console.WriteLine(i);
-                break;
-            }
-        }
-
-        for (int i = numbers[3] + numbers[2]; i <= max; i+= numbers[2])
-        {
-            if (numbers.Any(x => x == i))
-            {
-                Console.WriteLine(i);
-                break;
+                return;
             }
         }
     }
