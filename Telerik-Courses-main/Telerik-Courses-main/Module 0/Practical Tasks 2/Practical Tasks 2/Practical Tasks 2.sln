@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Least Multiple", "Q03 L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Signal From Space", "Q04 Signal From Space\Q04 Signal From Space.csproj", "{2363CA3D-D052-4DC5-863E-30827C23EBD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Good Number", "Q05 Good Number\Q05 Good Number.csproj", "{FC6ABF8A-0467-471E-95C5-BF9D9BFDB65A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2363CA3D-D052-4DC5-863E-30827C23EBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2363CA3D-D052-4DC5-863E-30827C23EBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2363CA3D-D052-4DC5-863E-30827C23EBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6ABF8A-0467-471E-95C5-BF9D9BFDB65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6ABF8A-0467-471E-95C5-BF9D9BFDB65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6ABF8A-0467-471E-95C5-BF9D9BFDB65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6ABF8A-0467-471E-95C5-BF9D9BFDB65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
