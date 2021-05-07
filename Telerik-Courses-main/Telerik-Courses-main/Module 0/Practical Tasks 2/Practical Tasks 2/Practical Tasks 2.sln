@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Forest Road", "Q02 Fore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Least Multiple", "Q03 Least Multiple\Q03 Least Multiple.csproj", "{E10F40FA-CE2C-4D39-A9E5-8DFA171C4E76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Signal From Space", "Q04 Signal From Space\Q04 Signal From Space.csproj", "{2363CA3D-D052-4DC5-863E-30827C23EBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E10F40FA-CE2C-4D39-A9E5-8DFA171C4E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E10F40FA-CE2C-4D39-A9E5-8DFA171C4E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E10F40FA-CE2C-4D39-A9E5-8DFA171C4E76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2363CA3D-D052-4DC5-863E-30827C23EBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2363CA3D-D052-4DC5-863E-30827C23EBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2363CA3D-D052-4DC5-863E-30827C23EBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2363CA3D-D052-4DC5-863E-30827C23EBD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
